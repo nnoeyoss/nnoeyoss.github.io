@@ -1,0 +1,310 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Take Action</title>
+
+<link href="css/mainstyle.css" rel="stylesheet" type="text/css">
+
+<!--Google Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="css/nivo-slider.css">
+<link rel="stylesheet" type="text/css" href="themes/default/default.css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/accordion.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/jquery-1.9.0.min.js"></script>
+<script src="js/wow.js"></script>
+
+</head>
+
+<script>
+	new WOW().init();
+</script>
+
+<script>
+		$(document).ready(function(){
+		  $("a").on('click', function(event) {
+
+			if (this.hash !== "") {
+			  event.preventDefault();
+
+			  var hash = this.hash;
+
+			  $('html, body').animate({
+				scrollTop: $(hash).offset().top
+			  }, 800, function(){
+
+				window.location.hash = hash;
+			  });
+			}
+		  });
+		});
+</script>
+
+<body>
+
+<div id="container">
+
+<!--Navigation Bar-->
+
+<div id="navbar">
+
+	<div id="logo"> 
+    	<a href="index.html"><img src="image/logo.png" alt="Dilly Dally Logo" width="98" height="94" class="sarah"/>	</a>
+    </div>
+    
+    <div class="nav">
+    	<ul>
+            <li class="aboutus"><a href="aboutus.html">ABOUT US</a></li>
+            <li class="procrastination"><a href="procrastination.html">WHAT IS PROCRASTINATION?</a></li>
+            <li class="takeaction"><a href="takeaction.html">TAKE ACTION</a></li>
+            <li class="contactus"><a href="contactus.html">CONTACT US</a></li>
+            <li class="faq"><a href="faq.html">FAQ</a></li>
+        </ul>
+    </div>
+    
+    <script>
+    $(window).on("scroll touchmove", function () {
+    $('#navbar').toggleClass('smaller', $(document).scrollTop() > 0);
+});
+    </script>
+    
+    <script>
+    $(window).on("scroll touchmove", function () {
+    $('img.sarah').toggleClass('smaller', $(document).scrollTop() > 0);
+});
+    </script>
+    
+    <script>
+    $(window).on("scroll touchmove", function () {
+    $('.nav ul li').toggleClass('smaller', $(document).scrollTop() > 0);
+});
+    </script>
+    
+   <script>
+    $(window).on("scroll touchmove", function () {
+    $('#logo').toggleClass('smaller', $(document).scrollTop() > 0);
+});
+    </script>
+    
+</div>
+
+<!--End of Navigation Bar-->
+
+<div id="actionsection1">
+	<h2>TAKE ACTION, ACT TODAY!</h2>
+    <div class="wow fadeIn">
+    <p>All talk and no action will only lead to more procrastination. If you’re tired of having to rush your work in such a short span of time, here are some actions you can take today! </p>
+    </div>
+</div>
+
+<div id="actionsection2">
+
+	<!-- Nivo Slider -->
+	<div id="nivoslider">
+	<div class="slider-wrapper theme-default">
+    	<div id="slider" class="nivoSlider">
+            <img src="image/commonsolutions1.png" width="1280" height="500" alt="Common Solution 1"/>
+            <img src="image/commonsolutions2.png" width="1280" height="500" alt="Common Solution 2"/>
+            <img src="image/commonsolutions3.png" width="1280" height="500" alt="Common Solution 3"/>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+    	$('#slider').nivoSlider();
+    });
+    </script>
+    
+	</div>
+    <!-- End of Slider-->
+
+</div>
+
+<div id="actionsection3">
+	<div id="actionsection3_1">
+    	<h2>DILLY DALLY'S PHONE APPLICATION</h2>
+        <div class="wow fadeInLeft">
+        <p>Dilly Dally's phone application aims to serve you by helping you cope with your overwhelming work schedule. If you're tired of running out of time, struggling with time management or having so many things to do but having so little time, give Dilly Dally's application a try and chase procrastination away!</p>
+        </div>
+    </div>
+    
+    <div id="actionsection3_2">
+    <div class="wow fadeInLeft">
+    	<p id="scheduletext">Plan your deadlines with our schedule planner</p>
+        <p id="meetuptext">Meet up and study in a group, it makes doing work pleasant</p>
+        <p id="musictext">Aids in brain stimulation to help you focus better.</p>
+    
+    </div>
+    </div>
+    
+    <div id="actionsection3_3">
+    	<img src="image/scheduleicon.png" width="130" height="130" alt="Schedule App Icon"/>
+    	<img src="image/meetupicon.png" width="130" height="130" alt="Meetup App Icon"/>
+        <img src="image/musicicon.png" width="130" height="130" alt="Music App Icon"/>
+    </div>
+    
+    <div id="actionsection3_4">
+    	<iframe style="transform: scale(0.6)" width="438" height="930" src="http://invis.io/6EA82U34P" frameborder="0" allowfullscreen></iframe>
+    </div>
+    
+    <div id="actionsection3_5">
+    	<img src="image/alarmicon.png" width="130" height="130" alt="Alarm App Icon"/>
+        <img src="image/chatroomicon.png" width="130" height="130" alt="Chatroom App Icon"/>
+        <img src="image/blockicon.png" width="130" height="130" alt="Block Notification App Icon"/>
+    </div>
+    
+    <div id="actionsection3_6">
+    <div class="wow fadeInRight">
+    	<p id="alarmtext">Keeps you on track by reminding everyday tasks</p>
+        <p id="chatroomtext">An interactive platform whereby you can seek help from others</p>
+        <p id="blockouttext">Blocks out notifications from distracting apps so you can focus on your work</p>
+    </div>
+    </div>
+    
+    <div id="actionsection3_7"> <a href="http://www.apple.com/sg/itunes/charts/free-apps/"><img src="image/appstore.png" alt="Click to download application from Apple's Appstore" width="172" height="50" id="appstore"/></a>
+        <a href="https://play.google.com/store?hl=en"><img src="image/playstore.png" alt="Click to download application from Google's Playstore." width="172" height="50" id="playstore"/></a>
+    </div>
+    
+</div>
+
+<div id="actionsection4">
+	<div id="actionsection4_1">
+    	<h2>OUR CHATROOM</h2>
+        <div class="wow fadeInLeft">
+        <p>Utilise our chatroom if you have any questions regarding your schoolwork. Dilly Dally users might be able to help you!</p>
+        </div>
+    </div>
+    <div id="actionsection4_2">
+    	<input name="question" type="text" required id="question" placeholder="Click here to ask a question"> 
+    </div>
+</div>
+
+<div id="actionsection5">
+	<div id="actionsection5_1">
+    	<h2>MEET UP FOR STUDY GROUPS</h2>
+        <div class="wow fadeInLeft">
+        <p>Organise study groups with people studying the same course/subject to get things done and have instant access to help in your work, making studying more fun and enjoyable!</p>
+        </div>
+    </div>
+    <div id="actionsection5_2">
+    	<input name="englishbutton" type="button" id="englishbutton" value="ENGLISH">
+        <input name="mathbutton" type="button" id="mathbutton" value="MATHEMATICS">
+        <input name="sciencebutton" type="button" id="sciencebutton" value="SCIENCE">
+        <input name="humanitiesbutton" type="button" id="humanitiesbutton" value="HUMANITIES">
+        <input name="othersbutton" type="button" id="othersbutton" value="OTHERS">
+    </div>
+
+<div id="accordionsection">
+<div class="accordion">
+			<div class="accordion-section">
+				<a class="accordion-section-title" href="#accordion-1">Start a meetup group</a>
+				<div id="accordion-1" class="accordion-section-content">
+					<div id="meetupform">
+                    	<div id="meetupform_1">
+                        	<p>Name</p>
+                        	<input name="meetupname" type="text" required id="meetupname" placeholder="E.g. Zan Tan">
+                        </div>
+                        <div id="meetupform_2">
+                        	<p>Place</p>
+                        	<input name="meetupplace" type="text" required id="meetupplace" placeholder="E.g. National Library">
+                        </div>
+                        <div id="meetupform_3">
+                        	<p>Subject</p>
+                            <input name="meetupsubject" type="text" required id="meetupsubject" placeholder="English" disabled>
+                        </div>
+                        <div id="meetupform_4">
+                        	<p>Time</p>
+                            <input name="meetuptime" type="text" required id="meetuptime" placeholder="E.g. 7pm - 9pm">
+                        </div>
+                        <div id="meetupform_5">
+                        	<textarea name="textarea" id="meetupcomment" placeholder="Other comments...."></textarea>
+                        </div>
+                        <div id="meetupform_6">
+                        	<input name="startmeetup" type="button" id="startmeetup" value="START MEETUP GROUP">
+                        </div>
+                    </div>
+				</div><!--end .accordion-section-content-->
+			</div><!--end .accordion-section-->
+
+			<div class="accordion-section">
+				<a class="accordion-section-title" href="#accordion-2">Find a meetup group</a>
+				<div id="accordion-2" class="accordion-section-content">
+					<div id="findmeetup">
+                    	<div id="findmeetup_1">
+                       	  <h2>Available Meetups</h2>
+                          <p id="subjecttext">English</p>
+                        </div>
+                        <div id="findmeetup_2">
+                        	<h6>Composition</h6>
+                            <p>Sunday, 29th January 7pm - 9pm @ The National Library 4/6<span style="margin-left:325px">Click to join this study group!</span></p>
+                        </div>
+                        
+                        <div id="findmeetup_3">
+                        	<h6>Creative Writing</h6>
+                            <p>Friday, 4th Feburary 3pm - 5pm @ Ngee Ann Polytechnic 2/3<span style="margin-left:325px">Click to join this study group!</span></p>
+                        </div>
+                        
+                        <div id="findmeetup_4">
+                        	<h6>Comprehension</h6>
+                            <p>Monday, 8th Feburary 5pm - 7pm @ Ngee Ann Polytechnic 2/5<span style="margin-left:310px">Click to join this study group!</span></p>
+                        </div>
+                    </div>
+				</div><!--end .accordion-section-content-->
+			</div><!--end .accordion-section-->
+</div><!--end .accordion-->
+            
+<!--End of FAQ Accordion-->
+
+<!--Footer-->
+
+<div id="footer">
+	
+    <div id="footer_1"> 
+    	<a href="http://facebook.com"><img src="image/facebookicon.png" width="39" height="39" alt="Facebook Icon"/></a>
+        <a href="http://twitter.com"><img src="image/twittericon.png" width="39" height="39" alt="Twitter Icon"/></a>
+        <a href="http://instagram.com"><img src="image/instagramicon.png" width="39" height="39" alt="Instagram Icon"/></a>
+    </div>
+    
+    <div id="footer_2">
+    	<ul>
+        	<li>
+            	<li class="home"><a href="index.html">HOME</a></li>
+            	<li class="aboutus"><a href="aboutus.html">ABOUT US</a></li>
+            	<li class="procrastination"><a href="procrastination.html">WHAT IS PROCRASTINATION?</a></li>
+            	<li class="takeaction"><a href="takeaction.html">TAKE ACTION</a></li>
+            	<li class="contactus"><a href="contactus.html">CONTACT US</a></li>
+          		<li class="faq"><a href="faq.html">FAQ</a></li>
+            </li>
+        </ul>
+				<div id="backtotop">
+				<a href="#actionsection1">
+					<img src="image/top.png" alt="Back to top button" width="1717" height="1717" id="top"/>
+				</a>
+				</div>
+
+    </div>
+    
+    <div id="footer_3">
+    	<p>&copy; 2017 Dilly Dally. All Rights Reserved.</p>
+    </div>
+    
+</div>
+
+<!--End of Footer-->
+
+</div>
+
+
+
+</div>
+</div>
+
+</body>
+
+</html>

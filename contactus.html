@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact Us</title>
+<link href="css/mainstyle.css" rel="stylesheet" type="text/css">
+
+
+<!--Google Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+<link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.css">
+
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/wow.js"></script>
+
+</head>
+
+<script>
+	new WOW().init();
+</script>
+    
+<script>
+		$(document).ready(function(){
+		  $("a").on('click', function(event) {
+
+			if (this.hash !== "") {
+			  event.preventDefault();
+
+			  var hash = this.hash;
+
+			  $('html, body').animate({
+				scrollTop: $(hash).offset().top
+			  }, 800, function(){
+
+				window.location.hash = hash;
+			  });
+			}
+		  });
+		});
+</script>    
+    
+<body>
+
+<div id="container">
+
+<!--Navigation Bar-->
+
+<div id="navbar">
+
+	<div id="logo"> 
+    	<a href="index.html"><img src="image/logo.png" alt="Dilly Dally Logo" width="98" height="94" class="sarah"/>	</a>
+    </div>
+    
+    <div class="nav">
+    	<ul>
+            <li class="aboutus"><a href="aboutus.html">ABOUT US</a></li>
+            <li class="procrastination"><a href="procrastination.html">WHAT IS PROCRASTINATION?</a></li>
+            <li class="takeaction"><a href="takeaction.html">TAKE ACTION</a></li>
+            <li class="contactus"><a href="contactus.html">CONTACT US</a></li>
+            <li class="faq"><a href="faq.html">FAQ</a></li>
+        </ul>
+    </div>
+    
+    <script>
+    $(window).on("scroll touchmove", function () {
+    $('#navbar').toggleClass('smaller', $(document).scrollTop() > 0);
+});
+    </script>
+    
+    <script>
+    $(window).on("scroll touchmove", function () {
+    $('img.sarah').toggleClass('smaller', $(document).scrollTop() > 0);
+});
+    </script>
+    
+    <script>
+    $(window).on("scroll touchmove", function () {
+    $('.nav ul li').toggleClass('smaller', $(document).scrollTop() > 0);
+});
+    </script>
+    
+   <script>
+    $(window).on("scroll touchmove", function () {
+    $('#logo').toggleClass('smaller', $(document).scrollTop() > 0);
+});
+    </script>
+    
+</div>
+
+<!--End of Navigation Bar-->
+
+<!--Contact Us-->
+
+<div id="contactdivider"></div>
+
+<div id="contact1">
+	<h1>Contact Us</h1>
+	<p>Get in touch with us!</p>
+	<p><i class="fa fa-phone" aria-hidden="true"></i></p><p class="text">9711 8241</p>
+	<p><i class="fa fa-envelope" aria-hidden="true"></i></p><p class="text"><a href="mailto:info@dillydally.com">info@dillydally.com</a></p>
+	<img src="image/contactus.png" alt="Contact Us" width="500" height="344" id="contactvector"/> 
+</div>
+
+<div id="contact2">
+	<h1>Drop Us a Message</h1>
+    <div class="wow fadeInLeft">
+	<p>Any further queries regarding procrastination or Dilly Dally? Maybe some feedback?<br/><br/>We at Dilly Dally are always ready to help, so feel free to leave us a message and we'll be sure to get back to you at our latest convenience.<br/><br/>Alternatively, you may also check out our FAQ section <a href="faq.html">here</a>.</p>
+    </div>
+	<div id="contactform">
+		<form>
+			<p>Name:</p><input type="text" placeholder="E.g. Mr/Ms Zan Tan">
+			<br/>
+			<p>Contact:</p><input type="text" placeholder="E.g. 9876 5432">
+			<br/>
+			<p>Email:</p><input type="text" placeholder="E.g. legend27@gmail.com">
+			<br/>
+			<p>Subject:</p><input type="textarea1">
+			<br/>
+		  <p>Message:</p><textarea name="textarea" id="textarea"></textarea>
+			<br/>
+			<input type="button" value="Submit">
+		</form>
+	</div>
+</div>
+
+
+
+<!--End of Contact Us-->
+
+<!--Footer-->
+
+<div id="footer">
+	
+    <div id="footer_1"> 
+    	<a href="http://facebook.com"><img src="image/facebookicon.png" width="39" height="39" alt="Facebook Icon"/></a>
+        <a href="http://twitter.com"><img src="image/twittericon.png" width="39" height="39" alt="Twitter Icon"/></a>
+        <a href="http://instagram.com"><img src="image/instagramicon.png" width="39" height="39" alt="Instagram Icon"/></a>
+    </div>
+    
+    <div id="footer_2">
+    	<ul>
+        	<li>
+            	<li class="home"><a href="index.html">HOME</a></li>
+            	<li class="aboutus"><a href="aboutus.html">ABOUT US</a></li>
+            	<li class="procrastination"><a href="procrastination.html">WHAT IS PROCRASTINATION?</a></li>
+            	<li class="takeaction"><a href="takeaction.html">TAKE ACTION</a></li>
+            	<li class="contactus"><a href="contactus.html">CONTACT US</a></li>
+          		<li class="faq"><a href="faq.html">FAQ</a></li>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="backtotop">
+				<a href="#contact1">
+					<img src="image/top.png" alt="Back to top button" width="1717" height="1717" id="top"/>
+				</a>
+				</div>
+    
+    <div id="footer_3">
+    	<p>&copy; 2017 Dilly Dally. All Rights Reserved.</p>
+    </div>
+    
+</div>
+
+<!--End of Footer-->
+
+</div>
+
+</body>
+
+</html>

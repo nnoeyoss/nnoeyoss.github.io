@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Template</title>
+
+<link href="css/mainstyle.css" rel="stylesheet" type="text/css">
+
+<!--Google Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/wow.js"></script>
+
+</head>
+
+<script>
+	new WOW().init();
+</script>
+
+<body>
+
+<!--Navigation Bar-->
+
+<div id="navbar">
+
+	<div id="logo"> 
+    	<a href="index.html"><img src="image/logo.png" alt="" width="100" height="94" class="sarah"/></a>
+    </div>
+    
+    <div class="nav">
+    	<ul>
+            <li class="aboutus"><a href="#">ABOUT US</a></li>
+            <li class="procrastination"><a href="#">WHAT IS PROCRASTINATION?</a></li>
+            <li class="takeaction"><a href="#">TAKE ACTION</a></li>
+            <li class="commonsolutions"><a href="#">COMMON SOLUTIONS</a></li>
+            <li class="contactus"><a href="#">CONTACT US</a></li>
+            <li class="faq"><a href="#">FAQ</a></li>
+        </ul>
+    </div>
+    
+    <script>
+    $(window).on("scroll touchmove", function () {
+    $('#navbar').toggleClass('smaller', $(document).scrollTop() > 0);
+});
+    </script>
+    
+    <script>
+    $(window).on("scroll touchmove", function () {
+    $('img.sarah').toggleClass('smaller', $(document).scrollTop() > 0);
+});
+    </script>
+    
+    <script>
+    $(window).on("scroll touchmove", function () {
+    $('.nav ul li').toggleClass('smaller', $(document).scrollTop() > 0);
+});
+    </script>
+    
+   <script>
+    $(window).on("scroll touchmove", function () {
+    $('#logo').toggleClass('smaller', $(document).scrollTop() > 0);
+});
+    </script>
+    
+</div>
+
+<!--End of Navigation Bar-->
+
+<!--Footer-->
+
+<div id="footer">
+	
+    <div id="footer_1"> 
+    	<a href="http://facebook.com"><img src="image/facebookicon3.png" width="39" height="39" alt=""/></a>
+        <a href="http://twitter.com"><img src="image/twittericon3.png" width="39" height="39" alt=""/></a>
+        <a href="http://instagram.com"><img src="image/instagramicon3.png" width="39" height="39" alt=""/></a>
+    </div>
+    
+    <div id="footer_2">
+    	<ul>
+        	<li>
+            	<li class="home"><a href="index.html">HOME</a></li>
+            	<li class="aboutus"><a href="#">ABOUT US</a></li>
+            	<li class="procrastination"><a href="#">WHAT IS PROCRASTINATION?</a></li>
+            	<li class="takeaction"><a href="#">TAKE ACTION</a></li>
+            	<li class="commonsolutions"><a href="#">COMMON SOLUTIONS</a></li>
+            	<li class="contactus"><a href="#">CONTACT US</a></li>
+            </li>
+        </ul>
+    </div>
+    
+    <div id="footer_3">
+    	<p>&copy; 2017 Dilly Dally. All Rights Reserved.</p>
+    </div>
+    
+</div>
+
+<!--End of Footer-->
+
+</body>
+</html>

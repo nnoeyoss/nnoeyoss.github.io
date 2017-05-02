@@ -1,0 +1,229 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>About Us</title>
+
+<link href="css/mainstyle.css" rel="stylesheet" type="text/css">
+
+<!--Google Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/wow.js"></script>
+
+</head>
+
+<script>
+	new WOW().init();
+</script>
+
+<script>
+		$(document).ready(function(){
+		  $("a").on('click', function(event) {
+
+			if (this.hash !== "") {
+			  event.preventDefault();
+
+			  var hash = this.hash;
+
+			  $('html, body').animate({
+				scrollTop: $(hash).offset().top
+			  }, 800, function(){
+
+				window.location.hash = hash;
+			  });
+			}
+		  });
+		});
+</script>
+
+<body>
+
+<div id="container">
+
+<!--Navigation Bar-->
+
+<div id="navbar">
+
+	<div id="logo"> 
+    	<a href="index.html"><img src="image/logo.png" alt="Dilly Dally Logo" width="98" height="94" class="sarah"/>	</a>
+    </div>
+    
+    <div class="nav">
+    	<ul>
+            <li class="aboutus"><a href="aboutus.html">ABOUT US</a></li>
+            <li class="procrastination"><a href="procrastination.html">WHAT IS PROCRASTINATION?</a></li>
+            <li class="takeaction"><a href="takeaction.html">TAKE ACTION</a></li>
+            <li class="contactus"><a href="contactus.html">CONTACT US</a></li>
+            <li class="faq"><a href="faq.html">FAQ</a></li>
+        </ul>
+    </div>
+    
+    <script>
+    $(window).on("scroll touchmove", function () {
+    $('#navbar').toggleClass('smaller', $(document).scrollTop() > 0);
+});
+    </script>
+    
+    <script>
+    $(window).on("scroll touchmove", function () {
+    $('img.sarah').toggleClass('smaller', $(document).scrollTop() > 0);
+});
+    </script>
+    
+    <script>
+    $(window).on("scroll touchmove", function () {
+    $('.nav ul li').toggleClass('smaller', $(document).scrollTop() > 0);
+});
+    </script>
+    
+   <script>
+    $(window).on("scroll touchmove", function () {
+    $('#logo').toggleClass('smaller', $(document).scrollTop() > 0);
+});
+    </script>
+    
+</div>
+
+<!--End of Navigation Bar-->
+
+
+<div id="aboutussection1">
+	<div id="aboutussection1_1">
+    	<img src="image/pendulum.png" alt="Pendulum" width="380" height="385" id="pendulum"/>
+    </div>
+  	<div id="aboutussection1_2">
+    	<h2>ABOUT US</h2>
+        <div class="wow fadeInRight">
+        <p>Dilly Dally is a campaign organised by a group of year 2 Mass Communication students at Ngee Ann Polytechnic’s School of Film and Media Studies as a final project for the module, Digital Media Design. The team is dedicated and passionate in their cause to provide help and support for the people who procrastinate. We aim to provide a voice for them to know that they are not alone. 
+		</p>
+        </div>
+   	</div>
+</div>
+
+<div id="aboutussection2">
+	<div id="aboutussection2_1">
+    	<h2>OUR MISSION</h2>
+        <div class="wow fadeInLeft">
+        <p>To help people combat procrastination and be more productive <br>in life.</p>
+        </div>
+    </div>
+    <div id="aboutussection2_2">
+    	<img src="image/stuckonclock.png" alt="Boy stuck on a clock" width="438" height="370" id="trappedonclock"/>
+    </div>
+</div>
+
+<div id="aboutussection3">
+	<div id="aboutussection3_1">
+    	<img src="image/vision.png" alt="Vision" width="219" height="520" id="vision"/>
+    </div>
+    <div id="aboutussection3_2">
+    	<h2>OUR VISION</h2>
+        <div class="wow fadeInRight">
+        <p>We aim for people to be more tolerant towards people who procrastinate and patiently guide them through the arduous journey towards being more productive.</p>
+        </div>
+    </div>
+</div>
+
+<div id="aboutussection4">
+	<div id="aboutussection4_1">
+    	<h2>WHAT WE VALUE</h2>
+        <div class="wow fadeInLeft">
+        <p>At the heart of our mission is <strong>compassion</strong>, <strong>empathy</strong> and <strong>patience</strong> for all persons. We are committed to these values in our hearts and minds. </p>
+        </div>
+  </div>
+    	<div id="aboutussection4_2">
+    	<img src="image/family.png" width="500" height="500" alt=""/> 
+    	</div>
+
+<div id="aboutussection5">
+	<div id="aboutussection5_1">
+    	<h2>MEET THE TEAM</h2>
+    </div>
+    <div id="aboutussection5_2">
+    	<div class="teamsarah">
+        </div>
+    </div>
+    <div id="aboutussection5_3">
+    	<div class="teamazri">
+        </div>
+    </div>
+    <div id="aboutussection5_4">
+    	<div class="teamtammy">
+        </div>
+    </div>
+    <div id="aboutussection5_5">
+    	<div class="teamsergio">
+        </div>
+    </div>
+    <div id="aboutussection5_6">
+    	<h4>Content Writer</h4>
+        <div class="wow fadeInUp">
+        <p>Gossip Girl fanatic and has zero patience for anything. Loves mala hotpot and absolutely hates vegetables.</p>
+        </div>
+    </div>
+    <div id="aboutussection5_7">
+    	<h4>Coder</h4>
+        <div class="wow fadeInUp">
+        <p>Korean-trash. Constantly falls asleep and wakes up at the weirdest timing. Absolutely loves Big Bang.</p>
+        </div>
+    </div>
+    <div id="aboutussection5_8">
+    	<h4>Designer</h4>
+        <div class="wow fadeInUp">
+        <p>100% auntie. Can’t live without Grab or Uber and lives for mahjong.</p>
+        </div>
+    </div>
+    <div id="aboutussection5_9">
+    	<h4>Videographer</h4>
+        <div class="wow fadeInUp">
+        <p>Has 0% chill and will wake up at ungodly hours to satisfy his love for football. <br/>Also dabbed with Mina.</p>
+        </div>
+    </div>
+</div>
+
+<!--Footer-->
+
+<div id="footer">
+	
+    <div id="footer_1"> 
+    	<a href="http://facebook.com"><img src="image/facebookicon.png" width="39" height="39" alt="Facebook Icon"/></a>
+        <a href="http://twitter.com"><img src="image/twittericon.png" width="39" height="39" alt="Twitter Icon"/></a>
+        <a href="http://instagram.com"><img src="image/instagramicon.png" width="39" height="39" alt="Instagram Icon"/></a>
+    </div>
+    
+    <div id="footer_2">
+    	<ul>
+        	<li>
+       	  <li class="home"><a href="index.html">HOME</a></li>
+            	<li class="aboutus"><a href="aboutus.html">ABOUT US</a></li>
+            	<li class="procrastination"><a href="procrastination.html">WHAT IS PROCRASTINATION?</a></li>
+            	<li class="takeaction"><a href="takeaction.html">TAKE ACTION</a></li>
+            	<li class="contactus"><a href="contactus.html">CONTACT US</a></li>
+          		<li class="faq"><a href="faq.html">FAQ</a></li>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="backtotop">
+				<a href="#aboutussection1">
+					<img src="image/top.png" alt="Back to top button" width="1717" height="1717" id="top"/>
+				</a>
+				</div>
+    
+    <div id="footer_3">
+    	<p>&copy; 2017 Dilly Dally. All Rights Reserved.</p>
+    </div>
+    
+</div>
+
+<!--End of Footer-->
+
+	</div>
+	</div>
+
+</body>
+</html>

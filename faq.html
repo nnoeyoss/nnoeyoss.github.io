@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Frequently Asked Questions</title>
+<link href="css/mainstyle.css" rel="stylesheet" type="text/css">
+
+
+<!--Google Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/accordion.js"></script>
+<script src="js/wow.js"></script>
+
+</head>
+
+<script>
+	new WOW().init();
+</script>
+  
+<script>
+		$(document).ready(function(){
+		  $("a").on('click', function(event) {
+
+			if (this.hash !== "") {
+			  event.preventDefault();
+
+			  var hash = this.hash;
+
+			  $('html, body').animate({
+				scrollTop: $(hash).offset().top
+			  }, 800, function(){
+
+				window.location.hash = hash;
+			  });
+			}
+		  });
+		});
+</script>    
+        
+<body>
+
+<div id="container">
+
+<!--Navigation Bar-->
+
+<div id="navbar">
+
+	<div id="logo"> 
+    	<a href="index.html"><img src="image/logo.png" alt="Dilly Dally Logo" width="98" height="94" class="sarah"/>	</a>
+    </div>
+    
+    <div class="nav">
+    	<ul>
+            <li class="aboutus"><a href="aboutus.html">ABOUT US</a></li>
+            <li class="procrastination"><a href="procrastination.html">WHAT IS PROCRASTINATION?</a></li>
+            <li class="takeaction"><a href="takeaction.html">TAKE ACTION</a></li>
+            <li class="contactus"><a href="contactus.html">CONTACT US</a></li>
+            <li class="faq"><a href="faq.html">FAQ</a></li>
+        </ul>
+    </div>
+    
+    <script>
+    $(window).on("scroll touchmove", function () {
+    $('#navbar').toggleClass('smaller', $(document).scrollTop() > 0);
+});
+    </script>
+    
+    <script>
+    $(window).on("scroll touchmove", function () {
+    $('img.sarah').toggleClass('smaller', $(document).scrollTop() > 0);
+});
+    </script>
+    
+    <script>
+    $(window).on("scroll touchmove", function () {
+    $('.nav ul li').toggleClass('smaller', $(document).scrollTop() > 0);
+});
+    </script>
+    
+   <script>
+    $(window).on("scroll touchmove", function () {
+    $('#logo').toggleClass('smaller', $(document).scrollTop() > 0);
+});
+    </script>
+    
+</div>
+
+<!--End of Navigation Bar-->
+
+<!--FAQ Accordion-->
+
+<div id="faq">
+	<div id="faq_1">
+	<h1>Frequently Asked Questions</h1>
+    		<div class="wow fadeInLeft">
+            <p>These are some of the common questions we get. If you have any further enquiries, do <a href="contactus.html">drop us a message!</a></p>
+            </div>
+    </div>
+    <div id="faq_2">
+    	<img src="image/questionmarks.png" alt="Question marks" width="340" height="266" id="questionmarks"/>
+    </div>
+</div>
+
+<div id="accordionsection">
+<div class="accordion">
+			<div class="accordion-section">
+				<a class="accordion-section-title" href="#accordion-1">Do teenagers procrastinate?</a>
+				<div id="accordion-1" class="accordion-section-content">
+					<p id="faq1">Procrastination occurs to many. A messy room stays that way, even though you promised yourself you’d get to it. Procrastination doesn’t just happen occasionally. It’s a chronic, pervasive and ingrained pattern. If you are one of these people whom you know have an in-built tendency to let something go to seed, not only with challenging tasks but even with simple ones, Dilly Dally is the perfect website you can seek help from.</p>
+				</div><!--end .accordion-section-content-->
+			</div><!--end .accordion-section-->
+
+			<div class="accordion-section">
+				<a class="accordion-section-title" href="#accordion-2">Is it harder to beat procrastination in a Digital Age?</a>
+				<div id="accordion-2" class="accordion-section-content">
+					<p id="faq2">The accessibility, appeal and addictive distractions of the media is everywhere. Digital devices tempt. Social networks delude. Add up the number of hours you spent on stuff that is irrelevant to your personal or career goals. Is it no wonder you’re on the brink of the Boulevard of Broken Dreams?</p>
+				</div><!--end .accordion-section-content-->
+			</div><!--end .accordion-section-->
+
+			<div class="accordion-section">
+				<a class="accordion-section-title" href="#accordion-3">Is procrastination inbred?</a>
+				<div id="accordion-3" class="accordion-section-content">
+					<p id="faq3">Procrastinators are made not born. It is indirectly learnt through the teachings and pass-downs of the family. It is the response to an authoritarian parenting style. A harsh, controlling parent keeps their child from developing the ability to regulate themselves, from internalising their own plans to learn learning how to execute them. </p>
+				</div><!--end .accordion-section-content-->
+			</div><!--end .accordion-section-->
+			
+			<div class="accordion-section">
+				<a class="accordion-section-title" href="#accordion-4">Why is procrastination so hard to change?</a>
+				<div id="accordion-4" class="accordion-section-content">
+					<p id="faq4">Procrastination is driven by strong emotions and tenacious personality traits, thus it’s difficult to change. If it’s simply about “making resolutions” or “just doing it”, your mother’s nagging and teacher’s scolding would have cured you of it from long before. 
+					<br/><br/>
+					To correct this deep-seated habit, you need to materialise individualised skills and strategies tailored to your personality style. This is important because the right advice for one style may be the wrong advice for another. Sometimes the glass shoe just doesn’t fit all..</p>
+				</div><!--end .accordion-section-content-->
+			</div><!--end .accordion-section-->
+			
+			<div class="accordion-section">
+				<a class="accordion-section-title" href="#accordion-5">How will Dilly Dally help me reach my goals?</a>
+				<div id="accordion-5" class="accordion-section-content">
+					<p id="faq5">Dilly Dally helps you develops an improved, upgraded version of yourself! Dilly Dally will help you with the following:
+					<br/>
+					- Allows you to get help in school work or assignments from people studying the same course/subject through the chat room
+					<br/>
+					- Serves as a platform for procrastinators to meet up for study sessions, where they can encourage one another to study, and also help with each other’s work. 
+					<br/><br/>
+					Our Dilly Dally application also helps you with the following:
+					<br/>
+					- Blocks out notifications from distracting applications 
+					<br/>
+					- Keep track of your schedule
+					<br/>
+					- Music player that aids in studying (E.g. plays focus music, auto timer set at 30/60 minutes so that ideal break time is achieved.)</p>
+				</div><!--end .accordion-section-content-->
+			</div><!--end .accordion-section-->
+		</div><!--end .accordion-->
+            
+<!--End of FAQ Accordion-->
+
+
+<!--Footer-->
+
+<div id="footer">
+	
+    <div id="footer_1"> 
+    	<a href="http://facebook.com"><img src="image/facebookicon.png" width="39" height="39" alt="Facebook Icon"/></a>
+        <a href="http://twitter.com"><img src="image/twittericon.png" width="39" height="39" alt="Twitter Icon"/></a>
+        <a href="http://instagram.com"><img src="image/instagramicon.png" width="39" height="39" alt="Instagram Icon"/></a>
+    </div>
+    
+    <div id="footer_2">
+    	<ul>
+        	<li>
+            	<li class="home"><a href="index.html">HOME</a></li>
+            	<li class="aboutus"><a href="aboutus.html">ABOUT US</a></li>
+            	<li class="procrastination"><a href="procrastination.html">WHAT IS PROCRASTINATION?</a></li>
+            	<li class="takeaction"><a href="takeaction.html">TAKE ACTION</a></li>
+            	<li class="contactus"><a href="contactus.html">CONTACT US</a></li>
+          		<li class="faq"><a href="faq.html">FAQ</a></li>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="backtotop">
+				<a href="#faq">
+					<img src="image/top.png" alt="Back to top button" width="1717" height="1717" id="top"/>
+				</a>
+				</div>
+    
+    <div id="footer_3">
+    	<p>&copy; 2017 Dilly Dally. All Rights Reserved.</p>
+    </div>
+    
+</div>
+
+<!--End of Footer-->
+
+</div>
+
+</div>
+
+</body>
+
+</html>

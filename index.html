@@ -1,0 +1,261 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Dilly Dally</title>
+
+<link href="css/mainstyle.css" rel="stylesheet" type="text/css">
+
+
+<!--Google Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/wow.js"></script>
+
+</head>
+
+<script>
+	new WOW().init();
+</script>
+   
+<script>
+		$(document).ready(function(){
+		  $("a").on('click', function(event) {
+
+			if (this.hash !== "") {
+			  event.preventDefault();
+
+			  var hash = this.hash;
+
+			  $('html, body').animate({
+				scrollTop: $(hash).offset().top
+			  }, 800, function(){
+
+				window.location.hash = hash;
+			  });
+			}
+		  });
+		});
+</script>    
+     
+       
+<body>
+
+<div id="container">
+
+<!--Navigation Bar-->
+
+<div id="navbar">
+
+	<div id="logo"> 
+    	<a href="index.html"><img src="image/logo.png" alt="Dilly Dally Logo" width="98" height="94" class="sarah"/>	</a>
+    </div>
+    
+    <div class="nav">
+    	<ul>
+            <li class="aboutus"><a href="aboutus.html">ABOUT US</a></li>
+            <li class="procrastination"><a href="procrastination.html">WHAT IS PROCRASTINATION?</a></li>
+            <li class="takeaction"><a href="takeaction.html">TAKE ACTION</a></li>
+            <li class="contactus"><a href="contactus.html">CONTACT US</a></li>
+            <li class="faq"><a href="faq.html">FAQ</a></li>
+        </ul>
+    </div>
+    
+    <script>
+    $(window).on("scroll touchmove", function () {
+    $('#navbar').toggleClass('smaller', $(document).scrollTop() > 0);
+});
+    </script>
+    
+    <script>
+    $(window).on("scroll touchmove", function () {
+    $('img.sarah').toggleClass('smaller', $(document).scrollTop() > 0);
+});
+    </script>
+    
+    <script>
+    $(window).on("scroll touchmove", function () {
+    $('.nav ul li').toggleClass('smaller', $(document).scrollTop() > 0);
+});
+    </script>
+    
+   <script>
+    $(window).on("scroll touchmove", function () {
+    $('#logo').toggleClass('smaller', $(document).scrollTop() > 0);
+});
+    </script>
+    
+</div>
+
+<!--End of Navigation Bar-->
+
+<div id="content">
+
+	<div id="section1">
+
+		<div id="section1_1">
+        	<img src="image/dilly.png" alt="Our Mascot - Dilly" width="350" height="357" id="dilly"/>
+		</div>
+
+	  	<div id="section1_2">
+        	<h2 id="dillyheader">WHO IS DILLY?</h2>
+            <div class="wow fadeInRight">
+            	<p id="dillytext">Meet Dilly! Dilly loves to procrastinate, she doesn’t manage her time well and is never on time for anything. She would rather stay in bed all day long, watching Gossip Girl than spend her time wisely studying or doing her assignments. This has severely affected her school work and relationships with her coursemates...until she stumbled upon Dilly Dally’s website!</p>
+            </div>
+	  </div>
+
+	</div>
+    
+    <div id="section2">
+    	<iframe src="https://player.vimeo.com/video/201917941" width="890" height="501" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+    
+    <div id="section3">
+    
+    	<div id="section3_1">
+        	<h2 id="bigideaheader">OUR BIG IDEA</h2>
+            <div class="wow fadeInLeft">
+            <p id="bigideatext">The big idea behind our campaign is for procrastinators to start working towards being more productive in life. Whether it’s school work or house chores, many struggle to get things done. <br><br>
+
+This is where Dilly Dally swifts in to help you cope with a busy life. With chat rooms, planned study dates and a schedule planner, Dilly Dally strives to help you cope with your busy schedule!.</p>
+            </div>
+        </div>
+        
+        <div id="section3_2">
+        	<img src="image/lightbulb.png" alt="Lightbulb" width="500" height="502" id="lightbulb"/>
+        </div>
+    
+    </div>
+    
+    <div id="section4">
+    
+    	<div id="section4_1">
+        	<h2 id="didyouknowheader">DID YOU KNOW?</h2>
+        </div>
+        
+        <div id="section4_2">
+        	<div class="wow fadeInLeft">
+            <h5 id="didyouknowheader1">61%</h5>
+        	<p id="didyouknowtext1">of students had 'too many other <br>things to do'.</p>
+            <h5 id="didyouknowheader2">47%</h5>
+            <p id="didyouknowtext2">believed that the task is aversive.</p>
+            </div>
+        </div>
+        
+        <div id="section4_3">
+        	<img src="image/strugglingcharacter.png" alt="Character struggling with work" width="165" height="485" id="didyouknowcharacter"/>
+        </div>
+        
+        <div id="section4_4">
+        	<div class="wow fadeInRight">
+            <h5 id="didyouknowheader3">40%</h5>
+        	<p id="didyouknowtext3">of students felt 'overwhelmed'<br> by their tasks.</p>
+            <h5 id="didyouknowheader4">14%</h5>
+            <p id="didyouknowtext4">of students have a fear of failure.</p>
+            </div>
+        </div>
+    
+    </div>
+    
+    <div id="section4_5">
+        <p>According to a study done based on the Procrastination Scale for Students (PASS).</p>
+    </div>
+    
+    <div id="section5">
+    
+    	<div id="section5_1">
+        	<h2 id="storiesheader">OUR STORIES</h2>
+     	</div>
+        
+        <div id="section5_2">
+       	  <img src="image/charlie.png" width="229" height="230" alt="Dilly Dally User 1 - Charlie"/>
+            <h3>Charlie Liu</h3>
+        </div>
+        
+      	<div id="section5_3">
+        	<div class="wow fadeInRight">
+        	<p>For the longest time, I felt like my friends couldn’t understand me. They were always frustrated and intolerant towards my working style. It was hard to keep up with my assignments.<br><br>
+
+Thankfully, I found Dilly Dally’s website. With the help of this website, I made new friends who relate to me and were able to get help for my assignments and form effective study groups. </p>
+			</div>
+        </div>
+        
+     	<div id="section5_4">
+      		<img src="image/sheila.png" width="229" height="230" alt="Dilly Dally User 2 - Sheila"/>
+            <h3>Sheila Goh</h3>
+   	  	</div>
+        
+     	<div id="section5_5">
+        	<div class="wow fadeInRight">
+        	<p>I got frustrated at myself for constantly being so unproductive. I always tell myself to actually execute the schedule I plan for myself but it never works out.. I get so unmotivated to do anything and I get distracted by the slightest thing such as the rainy weather.<br><br> But then I found Dilly Dally. Thanks to them, I get things done on time or even early sometimes! I learnt different ways to cope with procrastination and as tough as it gets tough as it gets, I manage my time better well. </p>
+            </div>
+        </div>
+        
+     	<div id="section5_6">
+        	<img src="image/larry.png" width="229" height="230" alt="Dilly Dally User 3 - Larry"/>
+            <h3>Larry Goh</h3>
+     	</div>
+        
+   	  	<div id="section5_7">
+        	<div class="wow fadeInRight">
+      		<p>“Lousy group member” was pretty much my reputation before I found Dilly Dally. People always complained about how I did last minute, sub-par work and were extremely unwilling to work with me. I really wanted to do better but the workload was always too overwhelming and no one was willing to help me. <br><br>
+
+Luckily, I found Dilly Dally’s website and got help from people, who were studying the same course, I met through the chat room. It makes studying more interactive and fun now. Coursemates of mine have noticed the change in me and asked me about it. We’re on much better terms right now and I have it to thank Dilly Dally!</p>
+			</div>
+        </div>
+    
+    </div>
+    
+    <div id="section6">
+    	<h2>GOT A STORY TO SHARE?</h2>
+        <div class="wow fadeInUp">
+        <p>Email us at mystory@dillydally.com and your story will be featured here! <br><br> Be sure to mention the following: <br><br>1. What you procrastinated over?<br>2. What was the consequence?<br>3. How did you solve the problem?<br>4. What did you learn?</p>
+    	</div>
+        </div>
+</div>
+
+<!--Footer-->
+
+<div id="footer">
+	
+    <div id="footer_1"> 
+    	<a href="http://facebook.com"><img src="image/facebookicon.png" width="39" height="39" alt="Facebook Icon"/></a>
+        <a href="http://twitter.com"><img src="image/twittericon.png" width="39" height="39" alt="Twitter Icon"/></a>
+        <a href="http://instagram.com"><img src="image/instagramicon.png" width="39" height="39" alt="Instagram Icon"/></a>
+    </div>
+    
+    <div id="footer_2">
+    	<ul>
+        	<li>
+            	<li class="home"><a href="index.html">HOME</a></li>
+            	<li class="aboutus"><a href="aboutus.html">ABOUT US</a></li>
+            	<li class="procrastination"><a href="procrastination.html">WHAT IS PROCRASTINATION?</a></li>
+            	<li class="takeaction"><a href="takeaction.html">TAKE ACTION</a></li>
+            	<li class="contactus"><a href="contactus.html">CONTACT US</a></li>
+          		<li class="faq"><a href="faq.html">FAQ</a></li>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="backtotop">
+				<a href="#section1">
+					<img src="image/top.png" alt="Back to top button" width="1717" height="1717" id="top"/>
+				</a>
+				</div>
+    
+    <div id="footer_3">
+    	<p>&copy; 2017 Dilly Dally. All Rights Reserved.</p>
+    </div>
+    
+</div>
+
+<!--End of Footer-->
+
+</div>
+
+</body>
+
+</html>
